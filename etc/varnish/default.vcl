@@ -207,7 +207,6 @@ sub vcl_error {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link href="https://www.wunderkraut.fi/sites/default/files/error_page/style.css" rel="stylesheet" type="text/css">
 <title>Error loading the page</title>
 
 </head>
