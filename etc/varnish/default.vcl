@@ -28,12 +28,6 @@ backend default {
 acl internal {
   # localhost
   "127.0.0.1";
-  # Helsinki
-  "84.20.132.177";
-  # Turku
-  "83.150.89.127";
-  # Valmiera
-  "62.63.139.66";
 }
 
 # List of upstream proxies we trust to set X-Forwarded-For correctly.
