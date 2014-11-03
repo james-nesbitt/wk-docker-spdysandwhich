@@ -25,4 +25,12 @@ If you want to specify host ports, do so for the http and https ports on this ne
 This box is meant to start a new container, that uses nginx to receive http/https/spdy requests, and with a number of tricks (including using varnish caching) it will accelerate any single www backend.  The backend is configured using the --link function, meaning that it only currently accelerates another container.
 Conceptually, you would start this container, linking it to the actuall www service, but proxy/redirect all web traffic to this container for the acceleration.
 
+## What are the scripts
+
+The repository contains a few one-line bash scripts to play with the image:
+
+1. build.sh : build this docker image, using the dockerfile, and includes
+2. run.sh : start a new container based on the image
+3. test.sh : start a shell in a new container based on the image
+
 Credit goes to everybody else, I am just packaging this up right now.
